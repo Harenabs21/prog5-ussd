@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",                 // Version de JavaScript cible
+    "module": "CommonJS",              // Module utilisé (Node.js utilise CommonJS)
+    "rootDir": "./src",                // Répertoire source des fichiers TypeScript
+    "outDir": "./dist",                // Répertoire de sortie des fichiers compilés
+    "strict": true,                    // Active les vérifications strictes de type
+    "esModuleInterop": true,           // Meilleure compatibilité avec les modules CommonJS
+    "skipLibCheck": true,              // Ignore les vérifications de types des dépendances
+  },
+  "include": ["src/**/*"],             // Inclut tous les fichiers TypeScript dans `src`
+  "exclude": ["node_modules", "dist"]  // Exclut les répertoires inutiles
+}
