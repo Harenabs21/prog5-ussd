@@ -1,4 +1,4 @@
-export const mainMenuOptions: Record<string, string> = {
+export const MAIN_MENU_OPTIONS: Record<string, string> = {
     "1": "Transfert d'argent",
     "2": "Service Orange",
     "3": "Paiements & Partenaire",

@@ -1,7 +1,7 @@
 import { displayMenu } from './menu'
 import { handleChoice } from'./menu'
 import  readline  from 'readline';
-import { mainMenuOptions } from './constants'
+import { MAIN_MENU_OPTIONS } from './constants'
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -21,4 +21,4 @@ function mainMenu(options: Record<string, string>): void {
     });
 }
 
-mainMenu(mainMenuOptions)
+mainMenu(MAIN_MENU_OPTIONS)
