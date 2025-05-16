@@ -9,3 +9,16 @@ export const MAIN_MENU_OPTIONS: Record<string, string> = {
     "8": "Retrait",
     "9": "Quitter"
 };
+
+export const SUB_MENU_OPTIONS: Record<string, Record<string, string>> = {
+  "1": {
+    "1": "Vers un compte bancaire",
+    "2": "Vers un autre utilisateur",
+    "3": "Historique des transferts",
+  },
+  "2": {
+    "1": "Achat de crédit",
+    "2": "Service internet",
+    "3": "Offres spéciales",
+  },
+};
